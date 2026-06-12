@@ -15,7 +15,8 @@ title: Support
 Open Myan once after installing it. This installs the local browser connection
 used by Chrome and Arc.
 
-For Safari, install and open Myan Safari Extension, then enable it under
+For Safari, install **Myan Browser Connector** from the Mac App Store, open it
+once, then enable **Myan Download Extension** under
 **Safari > Settings > Extensions**.
 
 ## Get Help

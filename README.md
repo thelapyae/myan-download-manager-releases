@@ -29,25 +29,24 @@ first launch, open **System Settings > Privacy & Security** and choose
 
 ## Chrome And Arc
 
-1. Download `Myan-Chrome-Arc-Extension-*.zip`.
-2. Extract the ZIP to a permanent folder. Do not delete that folder while the
-   extension is installed.
-3. Open `chrome://extensions` in Chrome or `arc://extensions` in Arc.
-4. Enable **Developer mode**.
-5. Click **Load unpacked** and select the extracted extension folder.
-6. Open **Myan - Download Manager.app** once if you have not already done so.
+1. Install
+   [Myan - Download Manager from the Chrome Web Store](https://chromewebstore.google.com/detail/myan-download-manager/dlclcdohlkfonkheoofpmfeinhjojdne).
+2. Open **Myan - Download Manager.app** once if you have not already done so.
 
 The extension can automatically transfer supported downloads to Myan. It also
 adds **Download with Myan** to the link context menu.
 
 ## Safari
 
-1. Download `Myan-Safari-Extension-*.zip`.
-2. Extract the ZIP.
-3. Move **Myan Safari Extension.app** to `/Applications`.
-4. Open the Safari extension app once.
-5. In Safari, open **Settings > Extensions**.
-6. Enable **Myan Safari Extension** and allow access to websites.
+**Myan Browser Connector** will be available from the Mac App Store after
+Apple completes the current review. The GitHub release does not distribute a
+separate extension ZIP.
+
+After installation:
+
+1. Open **Myan Browser Connector** once.
+2. Open **Safari > Settings > Extensions**.
+3. Enable **Myan Download Extension** and allow access to websites.
 
 Safari can automatically capture direct downloadable links. Downloads created
 from `blob:` URLs, JavaScript, forms, or protected media may require the
@@ -65,8 +64,7 @@ shasum -a 256 -c SHA256SUMS.txt
 
 - The current build supports Apple Silicon only.
 - App restart does not yet restore paused downloads.
-- Chrome and Arc require Developer mode until the extension is published in
-  the Chrome Web Store.
+- Browser extensions are distributed only through their official stores.
 - Safari cannot intercept every browser-generated download.
 
 This repository contains release documentation only. Application source code
