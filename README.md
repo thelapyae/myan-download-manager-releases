@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/myan-app-icon.png" alt="Myan - Download Manager logo" width="128">
+</p>
+
 # Myan - Download Manager
 
 Native download manager for macOS with multipart downloads and browser
