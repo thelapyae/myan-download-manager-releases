@@ -9,7 +9,7 @@ Download the latest version from the
 [Releases](https://github.com/thelapyae/myan-download-manager-releases/releases)
 page.
 
-Current beta requirements:
+Requirements:
 
 - macOS 14 or later
 - Apple Silicon Mac
@@ -23,7 +23,7 @@ Current beta requirements:
 4. Open the app once. This automatically installs the Chrome and Arc native
    messaging connection.
 
-This beta is Developer ID signed but is not notarized yet. If macOS blocks the
+This app is Developer ID signed but is not notarized yet. If macOS blocks the
 first launch, open **System Settings > Privacy & Security** and choose
 **Open Anyway** for Myan.
 
@@ -38,9 +38,9 @@ adds **Download with Myan** to the link context menu.
 
 ## Safari
 
-**Myan Browser Connector** will be available from the Mac App Store after
-Apple completes the current review. The GitHub release does not distribute a
-separate extension ZIP.
+Install
+[Myan Browser Connector from the Mac App Store](https://apps.apple.com/us/app/myan-browser-connector/id6777492228?mt=12).
+The GitHub release does not distribute a separate extension ZIP.
 
 After installation:
 
